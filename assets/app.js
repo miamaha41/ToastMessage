@@ -38,12 +38,10 @@ function toast({
         <div class="toast__close"><i class="fas fa-times"></i></div>`;
         main.appendChild(toast);
     }
-    if (!main.children.length) {
-        addToast();
-    } else if (main.children.length) {
+    if (main.children.length) {
         main.removeChild(main.children[0]);
-        addToast();
     }
+    addToast();
 
 }
 
