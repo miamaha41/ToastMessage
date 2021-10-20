@@ -20,7 +20,7 @@ function toast({
             }
         }
         const icons = {
-            uccess: "fas fa-check-circle",
+            success: "fas fa-check-circle",
             info: "fas fa-info-circle",
             warning: "fas fa-exclamation-circle",
             error: "fas fa-exclamation-circle"
