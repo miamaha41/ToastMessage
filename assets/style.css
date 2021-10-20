@@ -15,7 +15,6 @@ body {
 
 body>div {
     margin: auto;
-    display: inline-flex;
 }
 
 .btn {
@@ -78,7 +77,7 @@ body>div {
     padding: 20px 0;
     border-left: 4px solid;
     box-shadow: 0 5px 8px rgba(0, 0, 0, 0.08);
-    min-width: 400px;
+    min-width: 40px;
     max-width: 450px;
     transition: all linear .3s;
 }

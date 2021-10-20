@@ -4,7 +4,9 @@
     }
      */
     body>div {
-        margin: auto;
-        display: inline-flex!important;
+        display: inline-flex;
+    }
+    .toast {
+        width: 380px!important;
     }
 }
