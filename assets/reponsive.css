@@ -3,10 +3,7 @@
         padding: 15px 16px !important;
     }
      */
-    body>div {
+    body>div:first-child {
         display: inline-flex;
-    }
-    .toast {
-        width: 380px!important;
     }
 }
